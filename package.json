@@ -4,8 +4,7 @@
   "description": "Uthaiah portfolio",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "postinstall": "bower install && grunt build"
+    "start": "node index.js"
   },
   "engines": {
     "node": "6.9.4"
@@ -28,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/UthaiahBollera/portfolio/issues"
   },
-  "homepage": "https://github.com/UthaiahBollera/portfolio#readme"
+  "homepage": "https://github.com/UthaiahBollera/portfolio#readme",
+  "dependencies": {
+    "express": "4.15.2"
+  }
 }
